@@ -1,12 +1,13 @@
+import os
 
+import matplotlib.pyplot as plt
 import pandas as pd
 import requests
-import matplotlib.pyplot as plt
+from dotenv import load_dotenv
 
-import requests
+load_dotenv()
 
-# Insert your Alpha Vantage API Key here
-API_KEY = ''
+API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY")
 
 # Initialize the Portfolio
 portfolio = {}
@@ -98,15 +99,12 @@ def menu():
         else:
             print("Invalid choice. Please try again.")
 
-# Run the menu function
-menu()
+# Run the menu function (CLI) — uncomment to use terminal menu instead of Gradio
+# menu()
 
 
 
 import requests
-
-# Insert your Alpha Vantage API Key here
-API_KEY = ''
 
 # Initialize the Portfolio with pre-defined stocks
 portfolio = {
@@ -209,20 +207,13 @@ def menu():
         else:
             print("Invalid choice. Please try again.")
 
-# Run the menu function
-menu()
-
-!pip install seaborn
-
-pip install gradio yfinance matplotlib
+# Run the menu function (CLI) — uncomment to use terminal menu instead of Gradio
+# menu()
 
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-# Insert your Alpha Vantage API Key here
-API_KEY = ''
 
 # Initialize the Portfolio
 portfolio = {}
@@ -346,8 +337,8 @@ def menu():
         else:
             print("Invalid choice. Please try again.")
 
-# Run the menu function
-menu()
+# Run the menu function (CLI) — uncomment to use terminal menu instead of Gradio
+# menu()
 
 import gradio as gr
 import matplotlib.pyplot as plt
