@@ -1,4 +1,4 @@
-# 📈 Stock Portfolio Tracker
+b# 📈 Stock Portfolio Tracker
 
 A user-friendly **Gradio-powered Python web app** to manage, visualize, and track stock portfolios using **real-time stock market data**.
 
@@ -55,7 +55,6 @@ Amazon	AMZN
 
 📩 Author Info
 Developed by [Roman Ahmad]
-📧 Email: rkwazir9@gmail.com
 🔗 GitHub: github.com/romanahmad-dev
 
 
